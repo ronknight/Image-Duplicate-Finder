@@ -15,7 +15,8 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import Image
+from PIL import Image
+from pytesseract import image_to_string
 import os
 from shutil import copy2, move
 from optparse import OptionParser
@@ -58,7 +59,7 @@ class NullLogger(Logger):
 class ScreenLogger(Logger):
 	def log(self, message_log_level, message):
 		if self.log_level >= message_log_level:
-			print message
+			print (message)
 
 class FileLogger(Logger):
 	def __init__(self, log_level, file_name):
