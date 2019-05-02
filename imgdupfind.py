@@ -32,7 +32,7 @@ class Logger(object):
 
 	def log_level_value(self, log_level):
 		if log_level == "error":
-			return self.ERROR;
+			return self.ERROR
 		elif log_level == "warning":
 			return self.WARNING
 		elif log_level == "info":
@@ -201,7 +201,7 @@ else:
 
 	logger.log(logger.INFO,"The following are groups of identical images:\n")
 
-	for dup_set in dup_dict.viewvalues():
+	for dup_set in dup_dict.values():
 		for img_name in dup_set:
 			logger.log(logger.INFO, img_name)
 		logger.log(logger.INFO, "\n")			
