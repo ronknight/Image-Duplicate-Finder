@@ -1,7 +1,7 @@
 # Image Duplicate Finder
 Create an python program that will sort duplicated images into folders and move unduplicated images into one folder 
 
-# Screenshots
+# Screenshot
 
 ![After Running Python Program](https://github.com/ronknight/Image-Duplicate-Finder/blob/master/images/screenshots.png)
 
@@ -13,6 +13,11 @@ Create an python program that will sort duplicated images into folders and move 
 4. run "python imgdupfind.py"
 5. image that are duplicated are on their newly created folders.
 6. unduplicated images are on folder named "unduplicated".
+
+# Error
+1. if you encounter this error below, just delete the existing "unduplicated" folder and run the program again.
+
+![Folder Exist Error](https://github.com/ronknight/Image-Duplicate-Finder/blob/master/images/error.png)
 
 # Acknowledgement
 
