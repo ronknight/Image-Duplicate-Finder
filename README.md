@@ -3,7 +3,7 @@ Create an python program that will sort duplicated images into folders and move 
 
 # Screenshots
 
-![After Running Python Program](https://github.com/ronknight/Image-Duplicate-Finder/images/screenshots.png)
+![After Running Python Program](https://github.com/ronknight/Image-Duplicate-Finder/blob/master/images/screenshots.png)
 
 # Installation
 
